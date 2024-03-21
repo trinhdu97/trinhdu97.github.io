@@ -22,21 +22,21 @@ baseurl                  : "" # the subpath of your site, e.g. "/blog"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
-  pronouns         : # example: "she/her"  
+  name             : "Xuan Du Trinh"
+  pronouns         : "he/his"  
   bio              : "Ph.D. Student in CS"
-  location         : "Stony Brook"
+  location         : "Stony Brook, NY, USA"
   employer         : "Stony Brook University"
   uri              : # URL
   email            : "xtrinh@cs.stonybrook.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  researchgate     : # URL
+  #googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  #impactstory      : # URL
+  #orcid            : "http://orcid.org/yourorcidurl"
+  #pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  #researchgate     : # URL
 
   # Repositories and software development
   bitbucket        : # Username - Update with your username on the site
