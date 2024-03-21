@@ -7,7 +7,7 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "en-US"
+locale                   : "USA"
 title                    : "Personal Page"
 title_separator          : "-"
 name                     : &name "Your Name"
@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Xuan Du Trinh"
-  pronouns         : "he/his"  
+  #pronouns         : "He/His"  
   bio              : "Ph.D. Student in CS"
   location         : "Stony Brook, NY, USA"
   employer         : "Stony Brook University"
