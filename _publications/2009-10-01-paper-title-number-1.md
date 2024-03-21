@@ -1,6 +1,6 @@
 ---
 title: "Adaptivity is not helpful for Pauli channel learning"
-collection: publications
+collection: Learning Pauli channel
 permalink: https://arxiv.org/abs/2403.09033
 #excerpt: ''
 date: 03/2024
