@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "USA"
-title                    : "Personal Page"
+title                    : "Home Page"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "personal description"
