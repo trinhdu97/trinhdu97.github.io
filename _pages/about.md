@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
+Life is a stop between two lives ...
 
 
