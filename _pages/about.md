@@ -1,7 +1,6 @@
 ---
 permalink: /
 title: "About the present ..."
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
 author_profile: true
 redirect_from: 
   - /about/
@@ -20,7 +19,7 @@ Previously, in 2022 and 2023, I completed my master's degrees in Theoretical Phy
 
 
 
-
+(/images/editing-talk.png)
 
 
  
