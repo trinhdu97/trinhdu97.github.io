@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "What about now?!!"
+title: "About the present ..."
 author_profile: true
 redirect_from: 
   - /about/
