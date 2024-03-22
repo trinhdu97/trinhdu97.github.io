@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: /DU_CV_03_2023.pdf/
+permalink: /cv/
 author_profile: true
 redirect_from: 
   - /resume
