@@ -22,6 +22,9 @@ Previously, in 2022 and 2023, I completed my master's degrees in Theoretical Phy
 ![My CV](/images/DU_CV_03_2023.pdf)
 
 
+![My CV](/images/mainpage.png)
+
+
  
 
 
