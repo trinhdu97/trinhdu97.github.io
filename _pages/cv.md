@@ -9,6 +9,6 @@ layout: null
     <meta http-equiv="refresh" content="0; url=/_pages/DU_CV_2023.pdf">
 </head>
 <body>
-    <p>If you are not redirected, <a href="/DU_CV_2023.pdf">click here to view my CV</a>.</p>
+    <p>If you are not redirected, <a href="/_pages/DU_CV_2023.pdf">click here to view my CV</a>.</p>
 </body>
 </html>
