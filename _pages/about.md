@@ -17,4 +17,6 @@ Previously, in 2023 and 2022, I completed my master's degrees in Quantum Informa
 
 [My CV](/cv/)
 
+[My CV](/files/Xuan_Du_Trinh_CV.pdf)
+
 ![image](/images/mainpage2.jpeg)
