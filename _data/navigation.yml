@@ -12,10 +12,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
         
-  # - title: "CV"   
-  #   url: /year-archive/
+  - title: "CV"   
+    url: /files/Xuan_Du_Trinh_CV.pdf
     
-  # - title: "CV"
-  #   url: /assets/DU_CV_2023.pdf
   # - title: "Guide"
   #   url: /markdown/
