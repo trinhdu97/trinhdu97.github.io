@@ -15,6 +15,6 @@ I am Xuan Du Trinh, conducting research in Quantum Information under the supervi
 
 Previously, in 2023 and 2022, I completed my master's degrees in Quantum Information at Sorbonne Université and in Theoretical Physics at the ENS de Paris, respectively. I graduated from the Engineering Program at École Polytechnique (X) in 2021.
 
-<a href="/files/Xuan_Du_Trinh_CV.pdf" target="_blank" rel="noopener noreferrer">My CV</a>
+<!-- <a href="/files/Xuan_Du_Trinh_CV.pdf" target="_blank" rel="noopener noreferrer">My CV</a> -->
 
 ![image](/images/mainpage2.jpeg)
