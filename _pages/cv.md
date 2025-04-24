@@ -1,14 +1,14 @@
 ---
-layout: null
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
 ---
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Redirecting to CV...</title>
-    <meta http-equiv="refresh" content="0; url=/_pages/Xuan_Du_Trinh_CV.pdf">
-</head>
-<body>
-    <p>If you are not redirected, <a href="/_pages/Xuan_Du_Trinh_CV.pdf">click here to view my CV</a>.</p>
-</body>
-</html>
+{% include base_path %}
+
+<iframe src="/files/Xuan_Du_Trinh_CV.pdf" width="100%" height="800" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+
+You can also download a PDF copy of my CV [here](/files/Xuan_Du_Trinh_CV.pdf).
