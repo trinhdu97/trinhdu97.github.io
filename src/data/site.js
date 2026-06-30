@@ -106,10 +106,28 @@ export const publications = [
 // Photography / travel / memories. Captions are placeholders — edit freely.
 export const gallery = [
   {
-    src: '/images/photo-eatonsneck.jpeg',
-    place: 'Eatons Neck, New York',
-    year: '2025',
-    caption: 'Late September on the North Shore of Long Island.',
+    src: '/images/West-Meadow-Beach-Long-Island.jpeg',
+    place: 'West Meadow Beach, New York',
+    year: '',
+    caption: 'Sunset breaking on the shore.',
+  },
+  {
+    src: '/images/Hobart-Beach-Eatons-Neck-Long-Island.jpeg',
+    place: 'Hobart Beach, Eatons Neck, New York',
+    year: '',
+    caption: 'Boats and boulders at dusk.',
+  },
+  {
+    src: '/images/Jones-Beach-State-Park.jpeg',
+    place: 'Jones Beach State Park, New York',
+    year: '',
+    caption: 'A quiet evening by the ocean.',
+  },
+  {
+    src: '/images/hero.jpeg',
+    place: 'On the train from Nice to Agen, France',
+    year: '',
+    caption: 'Sunset from the window.',
   },
   {
     src: '/images/photo-villeneuve.jpeg',
@@ -137,8 +155,8 @@ export const gallery = [
   },
   {
     src: '/images/a-game-with-rating-2.png',
-    place: '',
+    place: 'A ranked game worth keeping',
     year: '',
-    caption: '',
+    caption: 'Some wins from a good night.',
   },
 ];
