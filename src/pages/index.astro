@@ -1,0 +1,126 @@
+---
+import '../styles/global.css';
+import {
+  profile,
+  aboutParagraphs,
+  aboutQuote,
+  lifePhotos,
+  researchInterests,
+  researchIntro,
+  publications,
+  gallery,
+} from '../data/site.js';
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{profile.name}</title>
+    <meta name="description" content={`${profile.name} — ${profile.role} at ${profile.affiliation}.`} />
+  </head>
+  <body>
+    <!-- Nav -->
+    <nav class="nav">
+      <div class="nav-inner">
+        <a class="nav-brand" href="#top">{profile.name}</a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#research">Research</a>
+          <a href="#photography">Photography</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="hero" id="top">
+      <img class="hero-img" src="/images/hero.jpeg" alt="" />
+      <div class="hero-content">
+        <h1>{profile.name}</h1>
+        <p>{profile.role} · {profile.affiliation}</p>
+        <div class="scroll-hint">Scroll ↓</div>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="about">
+      <div class="wrap">
+        <p class="eyebrow">About</p>
+        <h2 class="section-title">A few things about me</h2>
+        <div class="about-grid">
+          <div class="about-text">
+            {aboutParagraphs.map((p) => <p>{p}</p>)}
+            <blockquote class="quote">
+              {aboutQuote.en}
+              <span class="fr">{aboutQuote.fr}</span>
+            </blockquote>
+            <a class="btn" href={profile.cv} target="_blank" rel="noopener">Download CV</a>
+            <div class="social-links">
+              {profile.socials.map((s) => <a href={s.url} target="_blank" rel="noopener">{s.label}</a>)}
+            </div>
+          </div>
+          <div class="about-photos">
+            {lifePhotos.map((ph) => <img src={ph.src} alt={ph.alt} loading="lazy" />)}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Research -->
+    <section id="research">
+      <div class="wrap">
+        <p class="eyebrow">Research</p>
+        <h2 class="section-title">Publications &amp; interests</h2>
+        <p class="research-intro">{researchIntro}</p>
+        <div class="tags">
+          {researchInterests.map((t) => <span class="tag">{t}</span>)}
+        </div>
+        {publications.map((pub) => {
+          const Tag = pub.url ? 'a' : 'div';
+          return (
+            <Tag class="pub" href={pub.url || undefined} target={pub.url ? '_blank' : undefined} rel={pub.url ? 'noopener' : undefined}>
+              <div class="pub-meta">
+                {pub.venue} · {pub.year}
+                {pub.award && <span class="pub-award">{pub.award}</span>}
+              </div>
+              <h3 class="pub-title">{pub.title}</h3>
+              <p class="pub-authors" set:html={pub.authors.replace('Xuan Du Trinh', '<strong>Xuan Du Trinh</strong>')}></p>
+              <p class="pub-summary">{pub.summary}</p>
+            </Tag>
+          );
+        })}
+      </div>
+    </section>
+
+    <!-- Photography -->
+    <section id="photography">
+      <div class="wrap">
+        <p class="eyebrow">Photography</p>
+        <h2 class="section-title">Travels &amp; memories</h2>
+        <p class="research-intro">
+          Places I have wandered through, and moments I wanted to hold on to.
+          Hover a photo for where and when.
+        </p>
+        <div class="gallery">
+          {gallery.map((shot) => (
+            <figure class="shot">
+              <img src={shot.src} alt={shot.place} loading="lazy" />
+              <figcaption class="shot-cap">
+                <div class="shot-place">{shot.place}</div>
+                <div class="shot-detail">{[shot.year, shot.caption].filter(Boolean).join(' · ')}</div>
+              </figcaption>
+            </figure>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="wrap">
+        {profile.socials.map((s) => <a href={s.url} target="_blank" rel="noopener">{s.label}</a>)}
+        <p>© 2026 {profile.name}</p>
+      </div>
+    </footer>
+  </body>
+</html>
