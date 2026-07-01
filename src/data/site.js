@@ -115,6 +115,18 @@ export const publications = [
 // Photography / travel / memories. Captions are placeholders; edit freely.
 export const gallery = [
   {
+    src: '/images/Narita-Airport-Japan.jpeg',
+    place: 'Narita Airport, Japan',
+    year: '',
+    caption: '',
+  },
+  {
+    src: '/images/Cornell-University-Ithaca-2024.jpeg',
+    place: 'Cornell University, Ithaca, New York',
+    year: '2024',
+    caption: '',
+  },
+  {
     src: '/images/Rainier-Mount-Washington-CVPR-2024-trip.jpeg',
     place: 'Mount Rainier National Park, Washington',
     year: '2024',
@@ -123,14 +135,14 @@ export const gallery = [
   {
     src: '/images/Port-Orchard-Bremerton-Washington.jpeg',
     place: 'Port Orchard, Washington',
-    year: '',
-    caption: '',
+    year: '2024',
+    caption: 'From the CVPR trip.',
   },
   {
     src: '/images/Rich-Passage-Bremerton-Washington.jpeg',
     place: 'Rich Passage, Bremerton, Washington',
-    year: '',
-    caption: '',
+    year: '2024',
+    caption: 'From the CVPR trip.',
   },
   {
     src: '/images/West-Meadow-Beach-Long-Island.jpeg',
