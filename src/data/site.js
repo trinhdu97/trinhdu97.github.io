@@ -58,15 +58,23 @@ export const publications = [
     venue: 'IEEE ICDCS 2026',
     year: '2026',
     award: 'Distinguished Paper Award',
-    summary: 'A verification-based quantum transmission protocol for quantum network design.',
+    summary: 'A verification-based quantum transmission (VBQT) protocol that treats noise as a first-class design goal, coupling entanglement verification with hop-by-hop teleportation so that only high-fidelity pairs are used across repeaters, substantially improving the fidelity and goodput of multi-hop quantum communication.',
     url: '',
+  },
+  {
+    title: 'Absorption Capacity of Separable Noise: Bell-Mixing Thresholds on Separability and Teleportation',
+    authors: `${ME}`,
+    venue: 'arXiv:2606.31243',
+    year: '2026',
+    summary: 'Closed-form thresholds for how much entanglement a separable noise state can absorb in a Bell-mixing line before the state becomes entangled and reaches a teleportation advantage over classical strategies.',
+    url: 'https://doi.org/10.48550/arXiv.2606.31243',
   },
   {
     title: 'On the Emergence of Classical Stochasticity',
     authors: `${ME}, Ismaël Septembre, Hai-Chau Nguyen`,
     venue: 'arXiv:2602.04633',
     year: '2026',
-    summary: 'On how classical stochasticity emerges within quantum descriptions.',
+    summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times — though not automatically justified — is essential for computing stochastic quantities such as persistence and first-arrival times.',
     url: 'https://doi.org/10.48550/arXiv.2602.04633',
   },
   {
@@ -74,7 +82,7 @@ export const publications = [
     authors: `${ME}, Meghana Sistla, Nengkun Yu, Thomas Reps`,
     venue: 'arXiv:2601.22372',
     year: '2026',
-    summary: 'A tool for equivalence checking of quantum circuits.',
+    summary: 'A tool for equivalence checking of quantum circuits, especially efficient for low-depth circuits with a large number of qubits, benchmarked against other methods and under active development.',
     url: 'https://doi.org/10.48550/arXiv.2601.22372',
   },
   {
@@ -90,7 +98,7 @@ export const publications = [
     authors: `${ME}, Nengkun Yu`,
     venue: 'Quantum 9, 1864',
     year: '2025',
-    summary: 'Shows that adaptive strategies do not improve Pauli channel learning.',
+    summary: 'Shows that adaptive strategies do not improve Pauli channel learning when maximally entangled states are available, and provides an optimal algorithm and the complexity of the problem in this setting.',
     url: 'https://doi.org/10.22331/q-2025-09-24-1864',
   },
   {

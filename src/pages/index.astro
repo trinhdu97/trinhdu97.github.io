@@ -116,6 +116,19 @@ import {
       </div>
     </section>
 
+    <script>
+      // Shuffle the photography tiles on each visit (Fisher–Yates).
+      const grid = document.querySelector('.gallery');
+      if (grid) {
+        const tiles = Array.from(grid.children);
+        for (let i = tiles.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [tiles[i], tiles[j]] = [tiles[j], tiles[i]];
+        }
+        for (const tile of tiles) grid.appendChild(tile);
+      }
+    </script>
+
     <footer>
       <div class="wrap">
         {profile.socials.map((s) => <a href={s.url} target="_blank" rel="noopener">{s.label}</a>)}
