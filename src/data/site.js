@@ -18,11 +18,12 @@ export const profile = {
 // A short, honest bio. Keep claims measured.
 export const aboutParagraphs = [
   `I am Xuan Du Trinh, a Ph.D. student conducting research in Quantum Information at the
-   Department of Computer Science, Stony Brook University.`,
+   Department of Computer Science, Stony Brook University. I am particularly interested in
+   physics questions in entanglement theory.`,
   `Previously I completed master's degrees in Quantum Information at Sorbonne Université
    (2023) and in Theoretical Physics at the ENS de Paris (2022), after graduating from
    the Engineering Program at École Polytechnique (X) in 2021.`,
-  `Outside of research I spend a lot of time behind a camera — the photography section
+  `Outside of research I spend a lot of time behind a camera. The photography section
    below collects places I have travelled to and moments worth keeping.`,
 ];
 
@@ -74,7 +75,7 @@ export const publications = [
     authors: `${ME}, Ismaël Septembre, Hai-Chau Nguyen`,
     venue: 'arXiv:2602.04633',
     year: '2026',
-    summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times — though not automatically justified — is essential for computing stochastic quantities such as persistence and first-arrival times.',
+    summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times, though not automatically justified, is essential for computing stochastic quantities such as persistence and first arrival times.',
     url: 'https://doi.org/10.48550/arXiv.2602.04633',
   },
   {
@@ -111,8 +112,26 @@ export const publications = [
   },
 ];
 
-// Photography / travel / memories. Captions are placeholders — edit freely.
+// Photography / travel / memories. Captions are placeholders; edit freely.
 export const gallery = [
+  {
+    src: '/images/Rainier-Mount-Washington-CVPR-2024-trip.jpeg',
+    place: 'Mount Rainier National Park, Washington',
+    year: '2024',
+    caption: 'From the CVPR trip.',
+  },
+  {
+    src: '/images/Port-Orchard-Bremerton-Washington.jpeg',
+    place: 'Port Orchard, Washington',
+    year: '',
+    caption: '',
+  },
+  {
+    src: '/images/Rich-Passage-Bremerton-Washington.jpeg',
+    place: 'Rich Passage, Bremerton, Washington',
+    year: '',
+    caption: '',
+  },
   {
     src: '/images/West-Meadow-Beach-Long-Island.jpeg',
     place: 'West Meadow Beach, New York',
@@ -120,7 +139,7 @@ export const gallery = [
     caption: 'Sunset breaking on the shore.',
   },
   {
-    src: '/images/Hobart-Beach-Eatons-Neck-Long-Island.jpeg',
+    src: '/images/Hobart-Beach-Eatons-Neck.jpeg',
     place: 'Hobart Beach, Eatons Neck, New York',
     year: '',
     caption: 'Boats and boulders at dusk.',
