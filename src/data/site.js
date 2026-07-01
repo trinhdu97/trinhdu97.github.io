@@ -124,7 +124,7 @@ export const gallery = [
     src: '/images/Cornell-University-Ithaca-2024.jpeg',
     place: 'Cornell University, Ithaca, New York',
     year: '2024',
-    caption: '',
+    caption: 'A trip to Ithaca.',
   },
   {
     src: '/images/Rainier-Mount-Washington-CVPR-2024-trip.jpeg',
@@ -161,6 +161,12 @@ export const gallery = [
     place: 'Jones Beach State Park, New York',
     year: '',
     caption: 'A quiet evening by the ocean.',
+  },
+  {
+    src: '/images/IMG_0045.jpeg',
+    place: 'Short Beach, Nissequogue, New York',
+    year: '',
+    caption: 'My first trip with my first car.',
   },
   {
     src: '/images/hero.jpeg',

@@ -135,5 +135,21 @@ import {
         <p>© 2026 {profile.name}</p>
       </div>
     </footer>
+
+    <!-- Shuffle the photography gallery on every page load. -->
+    <script is:inline>
+      (function () {
+        var gallery = document.querySelector('.gallery');
+        if (!gallery) return;
+        var shots = Array.prototype.slice.call(gallery.children);
+        for (var i = shots.length - 1; i > 0; i--) {
+          var j = Math.floor(Math.random() * (i + 1));
+          var tmp = shots[i];
+          shots[i] = shots[j];
+          shots[j] = tmp;
+        }
+        shots.forEach(function (shot) { gallery.appendChild(shot); });
+      })();
+    </script>
   </body>
 </html>
