@@ -10,6 +10,7 @@ export const profile = {
   socials: [
     { label: 'Google Scholar', url: 'https://scholar.google.com/citations?user=yx9RYz0AAAAJ&hl=en' },
     { label: 'GitHub', url: 'https://github.com/trinhdu97' },
+    { label: 'LinkedIn', url: 'https://www.linkedin.com/in/xuan-du-trinh/' },
     { label: 'X / Twitter', url: 'https://twitter.com/XuanDu97' },
     { label: 'Email', url: 'mailto:xtrinh@cs.stonybrook.edu' },
   ],
