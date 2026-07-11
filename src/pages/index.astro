@@ -61,7 +61,12 @@ import {
             </div>
           </div>
           <div class="about-photos">
-            {lifePhotos.map((ph) => <img src={ph.src} alt={ph.alt} loading="lazy" />)}
+            {lifePhotos.map((ph) => (
+              <figure class="life-photo">
+                <img src={ph.src} alt={ph.alt} loading="lazy" />
+                {ph.caption && <figcaption>{ph.caption}</figcaption>}
+              </figure>
+            ))}
           </div>
         </div>
       </div>

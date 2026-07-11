@@ -35,7 +35,7 @@ export const aboutQuote = {
 
 // Photos used across the About collage.
 export const lifePhotos = [
-  { src: '/images/profile.jpeg', alt: 'Portrait' },
+  { src: '/images/profile.jpeg', alt: 'Portrait', caption: 'This is not me :-D' },
 ];
 
 export const researchInterests = [
@@ -88,6 +88,14 @@ export const publications = [
     url: 'https://doi.org/10.48550/arXiv.2601.22372',
   },
   {
+    title: 'Entanglement Certification by Measuring Nonlocality',
+    authors: `${ME}, Zhengyu Wu, Junlin Bai, Huan-Hsin Tseng, Nengkun Yu, Aruna Balasubramanian`,
+    venue: 'IEEE QCE 2026',
+    year: '2026',
+    summary: 'Certifying entanglement by measuring nonlocality, with applications to quantum networks.',
+    url: 'https://doi.org/10.48550/arXiv.2507.18066',
+  },
+  {
     title: 'Scalable Equivalence Checking and Verification of Shallow Quantum Circuits',
     authors: `Nengkun Yu, ${ME}, Thomas Reps`,
     venue: 'Proc. ACM Program. Lang. (OOPSLA 2)',
@@ -102,14 +110,6 @@ export const publications = [
     year: '2025',
     summary: 'Shows that adaptive strategies do not improve Pauli channel learning when maximally entangled states are available, and provides an optimal algorithm and the complexity of the problem in this setting.',
     url: 'https://doi.org/10.22331/q-2025-09-24-1864',
-  },
-  {
-    title: 'Entanglement Certification by Measuring Nonlocality',
-    authors: `${ME}, Zhengyu Wu, Junlin Bai, Huan-Hsin Tseng, Nengkun Yu, Aruna Balasubramanian`,
-    venue: 'arXiv:2507.18066',
-    year: '2025',
-    summary: 'Certifying entanglement by measuring nonlocality, with applications to quantum networks.',
-    url: 'https://doi.org/10.48550/arXiv.2507.18066',
   },
 ];
 
