@@ -64,11 +64,11 @@ export const publications = [
     url: '',
   },
   {
-    title: 'Absorption Capacity of Separable Noise: Bell-Mixing Thresholds on Separability and Teleportation',
+    title: 'Absorption Capacity of Separable Noise: Bell-Mixing Thresholds on Entanglement and Teleportation',
     authors: `${ME}`,
     venue: 'arXiv:2606.31243',
     year: '2026',
-    summary: 'Closed-form thresholds for how much entanglement a separable noise state can absorb in a Bell-mixing line before the state becomes entangled and reaches a teleportation advantage over classical strategies.',
+    summary: 'Defines the entanglement and fidelity absorption capacities of a Bell-mixing line, with closed-form thresholds for product and X noise states and extensions to local amplitude-damping and dephasing channels.',
     url: 'https://doi.org/10.48550/arXiv.2606.31243',
   },
   {
