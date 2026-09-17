@@ -55,6 +55,30 @@ const ME = 'Xuan Du Trinh';
 
 export const publications = [
   {
+    title: 'Full-Rank Noise Forbids Long-Range Entanglement Swapping',
+    authors: `${ME}, Nicholas Pardave, Angie Huang, Xiangyi Meng, Nengkun Yu`,
+    venue: 'arXiv:2609.11021',
+    year: '2026',
+    summary: 'Proves that any entangled two-qubit link with full-rank noise has a finite depth beyond which entanglement swapping can no longer establish end-to-end entanglement, even under adaptive postselection, while rank-deficient links keep a positive concurrence branch at every depth, with swapping experiments on a superconducting processor.',
+    url: 'https://doi.org/10.48550/arXiv.2609.11021',
+  },
+  {
+    title: 'One Relative Phase Orders Operational Thresholds of Noisy Bell Pairs',
+    authors: `${ME}`,
+    venue: 'arXiv:2609.10034',
+    year: '2026',
+    summary: 'Shows that the X part of the noise alone bounds the Bell weight at which a noisy mixture gains an operational ability such as steerability or Bell nonlocality, so partial tomography can certify the ability, and proves that the threshold is nondecreasing in the relative phase between the noise and Bell coherences even when no closed-form criterion is known.',
+    url: 'https://doi.org/10.48550/arXiv.2609.10034',
+  },
+  {
+    title: 'Operational Thresholds of Bell Mixtures with Complex X Noise',
+    authors: `${ME}`,
+    venue: 'arXiv:2608.17609',
+    year: '2026',
+    summary: 'Derives exact intervals and thresholds for entanglement, teleportation usefulness, steerability, and CJWR and CHSH violation in mixtures of a Bell state with arbitrary complex X noise, and shows the thresholds form a universal chain that widens as the relative phase between the noise and Bell coherences grows.',
+    url: 'https://doi.org/10.48550/arXiv.2608.17609',
+  },
+  {
     title: 'Rethinking Quantum Network Design Using a Verification-Based Quantum Transmission Protocol',
     authors: `Yiming Zeng, Zhengyu Wu, ${ME}, Yuanyuan Yang, Nengkun Yu, Aruna Balasubramanian`,
     venue: 'IEEE ICDCS 2026',
