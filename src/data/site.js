@@ -96,12 +96,12 @@ export const publications = [
     url: 'https://doi.org/10.48550/arXiv.2606.31243',
   },
   {
-    title: 'On the Emergence of Classical Stochasticity',
+    title: 'Emergence of Classical Stochasticity',
     authors: `${ME}, Ismaël Septembre, Hai-Chau Nguyen`,
-    venue: 'arXiv:2602.04633',
+    venue: 'Phys. Rev. A (accepted)',
     year: '2026',
     summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times, though not automatically justified, is essential for computing stochastic quantities such as persistence and first arrival times.',
-    url: 'https://doi.org/10.48550/arXiv.2602.04633',
+    url: 'https://doi.org/10.1103/855f-2529',
   },
   {
     title: 'Manjushri: A Tool for Equivalence Checking of Quantum Circuits',
