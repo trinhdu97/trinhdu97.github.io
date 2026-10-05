@@ -152,6 +152,30 @@ export const gallery = [
     caption: 'A trip to Ithaca.',
   },
   {
+    src: '/images/Rockport-MA.jpeg',
+    place: 'Rockport, Massachusetts',
+    year: '2024',
+    caption: 'Boats resting in the harbour at the end of the afternoon.',
+  },
+  {
+    src: '/images/Gloucester-Massachusetts.jpeg',
+    place: 'Gloucester, Massachusetts',
+    year: '2024',
+    caption: 'The great hall and its organ, seen through a lattice screen.',
+  },
+  {
+    src: '/images/Gloucester-Massachusetts-2.jpeg',
+    place: 'Gloucester, Massachusetts',
+    year: '2024',
+    caption: 'In the Orchard, hanging on a striped wall.',
+  },
+  {
+    src: '/images/SBU-CS-Department.jpeg',
+    place: 'Computer Science Department, Stony Brook University',
+    year: '2024',
+    caption: 'Flowers outside the department in June.',
+  },
+  {
     src: '/images/Rainier-Mount-Washington-CVPR-2024-trip.jpeg',
     place: 'Mount Rainier National Park, Washington',
     year: '2024',
@@ -210,6 +234,18 @@ export const gallery = [
     place: 'West Meadow Beach, New York',
     year: '',
     caption: '',
+  },
+  {
+    src: '/images/West-Meadow-Beach-Long-Island-3.jpeg',
+    place: 'West Meadow Beach, New York',
+    year: '2026',
+    caption: 'The whole sky turning red.',
+  },
+  {
+    src: '/images/West-Meadow-Beach-Long-Island-4.jpeg',
+    place: 'West Meadow Beach, New York',
+    year: '2026',
+    caption: 'The sun going down over the Sound.',
   },
   {
     src: '/images/Robert-Moses-State-Park-Babylon-New-York.jpeg',
