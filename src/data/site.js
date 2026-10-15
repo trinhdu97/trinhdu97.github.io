@@ -55,6 +55,14 @@ const ME = 'Xuan Du Trinh';
 
 export const publications = [
   {
+    title: 'Emergence of Classical Stochasticity',
+    authors: `${ME}, Ismaël Septembre, Hai-Chau Nguyen`,
+    venue: 'Phys. Rev. A 114, 042207',
+    year: '2026',
+    summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times, though not automatically justified, is essential for computing stochastic quantities such as persistence and first arrival times.',
+    url: 'https://doi.org/10.1103/855f-2529',
+  },
+  {
     title: 'Full-Rank Noise Forbids Long-Range Entanglement Swapping',
     authors: `${ME}, Nicholas Pardave, Angie Huang, Xiangyi Meng, Nengkun Yu`,
     venue: 'arXiv:2609.11021',
@@ -94,14 +102,6 @@ export const publications = [
     year: '2026',
     summary: 'Defines the entanglement and fidelity absorption capacities of a Bell-mixing line, with closed-form thresholds for product and X noise states and extensions to local amplitude-damping and dephasing channels.',
     url: 'https://doi.org/10.48550/arXiv.2606.31243',
-  },
-  {
-    title: 'Emergence of Classical Stochasticity',
-    authors: `${ME}, Ismaël Septembre, Hai-Chau Nguyen`,
-    venue: 'Phys. Rev. A 114, 042207',
-    year: '2026',
-    summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times, though not automatically justified, is essential for computing stochastic quantities such as persistence and first arrival times.',
-    url: 'https://doi.org/10.1103/855f-2529',
   },
   {
     title: 'Manjushri: A Tool for Equivalence Checking of Quantum Circuits',
