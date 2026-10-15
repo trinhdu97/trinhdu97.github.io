@@ -98,7 +98,7 @@ export const publications = [
   {
     title: 'Emergence of Classical Stochasticity',
     authors: `${ME}, Ismaël Septembre, Hai-Chau Nguyen`,
-    venue: 'Phys. Rev. A (accepted)',
+    venue: 'Phys. Rev. A 114, 042207',
     year: '2026',
     summary: 'Examines how classical stochasticity emerges from a quantum system governed by a Pauli-type master equation, showing that assuming the system has a definite state at intermediate times, though not automatically justified, is essential for computing stochastic quantities such as persistence and first arrival times.',
     url: 'https://doi.org/10.1103/855f-2529',
